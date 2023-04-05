@@ -3,7 +3,7 @@ function Navbar() {
         // Navbar 
         <div className="navbar primary-color color-white">
             <div className="container flex text-selection">
-                <a href="http://localhost:3000">Samim</a>
+                <a href="https://samim.onrender.com/">Samim</a>
 
                 {/* nav links */}
                 <nav>
