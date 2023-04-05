@@ -18,7 +18,7 @@ export const useRegister = () => {
         setError(null)
 
         // fetching API
-        const response = await fetch(`http://localhost:4000/api/user/register`, {
+        const response = await fetch(`https://samim-server.onrender.com/api/user/register`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ name, email, password })

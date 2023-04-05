@@ -1,9 +1,5 @@
 import { createContext, useReducer, useEffect } from 'react'
 
-// profile hook
-import { useProfileContext } from '../hooks/useProfileContext'
-import { useFormContext } from '../hooks/useFormContext'
-
 // initiate auth context
 export const AuthContext = createContext();
 

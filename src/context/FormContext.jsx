@@ -29,7 +29,7 @@ export const FormContextProvider = ({ children }) => {
 
         // fetching the online user from the API
         async function getOnlineUser() {
-            const response = await fetch(`http://localhost:4000/api/user/online`, {
+            const response = await fetch(`https://samim-server.onrender.com/api/user/online`, {
                 headers: {
                     'authorization': `Bearer ${user.accessToken}` // sending the auth token
                 }
