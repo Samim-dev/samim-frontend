@@ -117,7 +117,7 @@ code {
     width: 400px;
     height: 350px;
     z-index: 100;
-    animation: fade-in 0.4s ease-in;
+    animation: slideInFromTop 0.5s ease-in;
 }
 
 .showcase-form .form-control {

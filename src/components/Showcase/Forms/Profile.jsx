@@ -43,7 +43,7 @@ function Profile() {
             <button
              onClick={e => handleLogout(e)} 
              id="logout-button" 
-             className="btn profile-text-margin">Log Out</button>
+             className="btn profile-text-margin">Logout</button>
         </div>
     );
 }
